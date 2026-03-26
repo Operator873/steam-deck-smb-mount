@@ -1,0 +1,22 @@
+[Desktop Entry]
+# The display name shown on the desktop or in the application launcher
+Name=SMB Mount Wizard
+
+# A brief tooltip description of the app's function
+Comment=Easily connect and manage NAS network shares
+
+# The absolute path to the main bash script. 
+# Note: Adjust this if you plan to install the script to a different directory.
+Exec=/home/deck/smb_wizard.sh
+
+# A native KDE system icon that visually represents a network drive
+Icon=network-server
+
+# Ensures the script runs silently in the background, only showing our kdialog GUI
+Terminal=false
+
+# Specifies that this is an executable application shortcut
+Type=Application
+
+# Places the app in the correct categories if the user moves it to their application launcher
+Categories=System;Network;Utility;
