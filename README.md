@@ -13,7 +13,19 @@ This is the result.
 ---
 
 ## 🛑 Prerequisites
-Because this wizard creates system-level mount units, it requires root (`sudo`) access. 
+### Samba server
+This wizard **DOES NOT** install, create, or host a Samba server. It will not turn your Steam Deck into a NAS, nor will it create a share for you. 
+
+This tool is strictly designed to act as a *client* that connects to an outside source. It requires that you already have a fully functioning, accessible Samba share living somewhere else on your network (such as a Synology NAS, a TrueNAS server, a Windows PC, or a homelab). 
+
+Before you run this script, you must already have the following ready to go:
+* A running NAS or server hosting an active SMB share.
+* The exact IP address of that server.
+* A tested username and password that has access to the share.
+* Verified that the share is successfully reachable over your local network from another device.
+
+### Sudo access
+Because this wizard creates system-level mount units, it requires root (`sudo`) access.
 
 Out of the box, SteamOS does not have a user password set. If you have never set a password on your Steam Deck, you must do so before running this wizard:
 1. Open **Konsole** in Desktop Mode.
