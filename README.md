@@ -40,3 +40,11 @@ cd ~
 rm -f smb_wizard.sh
 rm -f Desktop/SMB-Wizard.desktop
 ```
+
+## 🤝 Contributing & Support
+
+This project was built to make life easier for the Steam Deck community, and I welcome any help to make it even better! 
+
+* **Found a bug?** If the script fails, throws an error, or just doesn't work with your specific NAS setup, please [open an Issue](https://github.com/Operator873/steam-deck-smb-mount/issues). Be sure to include what type of NAS you are connecting to and any error messages you received.
+* **Have an idea?** Feature requests are always welcome. Drop your ideas in the Issues tab so we can discuss them.
+* **Want to code?** Pull requests are openly encouraged! If you've written a fix or a new feature, feel free to submit a PR. Just ensure your bash script modifications remain layperson-friendly and **avoid introducing external dependencies**.
